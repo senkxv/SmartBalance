@@ -28,7 +28,7 @@
                              FontFamily="Comic Sans MS" FontSize="20" FontWeight="Bold"
                              Foreground="YellowGreen"
                              PreviewTextInput="TextBox_PreviewTextInput"
-                             Text="{Binding Income.amount}">
+                             Text="{Binding Income.Amount}">
                     </TextBox>
                 </StackPanel>
                 <!-- -->
@@ -65,7 +65,7 @@
 
                     <Calendar HorizontalAlignment="Left" VerticalAlignment="Stretch"
                               Width="250" Height="300"
-                              DataContext="{Binding Income.date}"/>
+                              DataContext="{Binding Income.Date}"/>
                 </StackPanel>
                 <!-- -->
 
